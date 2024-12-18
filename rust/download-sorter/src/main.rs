@@ -1,3 +1,4 @@
+#![windows_subsystem = "windows"]
 use std::fs;
 use std::ffi::OsStr;
 use std::thread;

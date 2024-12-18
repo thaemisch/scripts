@@ -2,6 +2,12 @@
 name = "download-sorter"
 version = "0.1.0"
 edition = "2021"
+categories = ["gui"]
 
 [dependencies]
 dirs = "5.0.1"
+winapi = { version = "0.3", features = ["winuser"] }
+
+[[bin]]
+name = "download-sorter"
+path = "src/main.rs"
